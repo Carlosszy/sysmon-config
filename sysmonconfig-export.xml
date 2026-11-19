@@ -471,6 +471,7 @@
 	<RuleGroup name="" groupRelation="or">
 		<ProcessAccess onmatch="include">
 			<!--NOTE: Using "include" with no rules means nothing in this section will be logged-->
+			<TargetImage condition="image">lsass.exe</TargetImage>
 		</ProcessAccess>
 	</RuleGroup>
 
